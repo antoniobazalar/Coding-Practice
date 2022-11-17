@@ -31,6 +31,20 @@ function conection(status) {
 }
 conection(2);
 
-
+function saludo(idioma) {
+    if (idioma === 'aleman') {
+        return 'Guten Tag!';
+    }
+      else if (idioma === 'mandarin') {
+        return 'Ni Hao!';
+    }
+      else if (idioma === 'ingles') {
+        return 'Hello!';
+    }
+      else {
+        return 'Hola!';
+    }
+}
+saludo('aleman');
 
 
