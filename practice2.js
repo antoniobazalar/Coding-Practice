@@ -18,3 +18,19 @@ function mayoriaDeEdad(edad) {
 }
 mayoriaDeEdad(21);
 
+function conection(status) {
+    if (status === 1) {
+        return 'Online';
+    }
+    else if (status === 2) {
+        return 'Away';
+    }
+    else {
+        return 'Offline';
+    }
+}
+conection(2);
+
+
+
+
