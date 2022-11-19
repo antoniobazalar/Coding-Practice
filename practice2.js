@@ -77,3 +77,11 @@ function esDiezOCinco(numero) {
     }
 }
 esDiezOCinco(5);
+
+function estaEnRango(numero) {
+    if (numero < 50 && numero > 20) {
+        return true;
+    }
+    return false;
+}
+estaEnRango(30);
