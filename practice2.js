@@ -85,3 +85,11 @@ function estaEnRango(numero) {
     return false;
 }
 estaEnRango(30);
+
+function esEntero(numero) {
+    if (Math.floor(numero) === numero) {
+        return true;
+    }
+    return false;
+}
+esEntero(4);
