@@ -67,3 +67,13 @@ function colors(color) {
     }
 }
 colors('orange');
+
+function esDiezOCinco(numero) {
+    if (numero === 10 || numero === 5) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+esDiezOCinco(5);
