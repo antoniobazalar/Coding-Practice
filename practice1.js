@@ -4,6 +4,7 @@
 var nombrePerro = 'waffles';
 var usuario = 'Antonio';
 var emailUsuario = 'antoniobazalar@yahoo.com';
+var restaurante = 'McDonald\'s';
 // Numbers
 var edad = 26;
 var gradosCentigrados = -40;
@@ -11,8 +12,12 @@ var longitud = 25.78;
 // Booleans
 var meEncantaJavascript = true;
 var soyMalProgramador = false;
-// 
-
+// Undefined
+var hola; // undefined
+// Null
+var numeroTelefono = 991-646-218;
+numeroTelefono = null;
+numeroTelefono; // null
 
 
 /////////////////
