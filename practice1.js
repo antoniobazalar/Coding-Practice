@@ -1,4 +1,21 @@
 // JavaScript coding practice exercises
+// Tipos de datos:
+// Strings
+var nombrePerro = 'waffles';
+var usuario = 'Antonio';
+var emailUsuario = 'antoniobazalar@yahoo.com';
+// Numbers
+var edad = 26;
+var gradosCentigrados = -40;
+var longitud = 25.78;
+// Booleans
+var meEncantaJavascript = true;
+var soyMalProgramador = false;
+// 
+
+
+
+/////////////////
 
 const nuevaString = 'hola';
 const nuevoNum = 1996;
