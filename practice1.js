@@ -1,5 +1,14 @@
 // JavaScript coding practice exercises
-// Tipos de datos:
+
+// JavaScript tiene tipado dinamico, las variables se pueden configurar y reestablecer para cualquier dato.
+// Ejemplos de identificadores de variables:
+_direccion
+nombre_usuario
+email002
+$ahorros
+// camelCase en JavaScript, escribir los identificadores de variables con minuscula en la primera palabra y empezar con mayuscula la segunda.
+
+////// Tipos de datos:
 // Strings
 var nombrePerro = 'waffles';
 var usuario = 'Antonio';
@@ -18,6 +27,19 @@ var hola; // undefined
 var numeroTelefono = 991-646-218;
 numeroTelefono = null;
 numeroTelefono; // null
+
+////// Operadores:
+// Simbolos que le indican al interprete de JS las operaciones que debe realizar:
+2 + 3 = 5;
+7 - 4 = 3;
+2 * 2 = 4;
+3 / 3 = 1;
+2 ** 3 = 8; // potenciacion
+21 % 5 = 1; // resto
+
+
+
+
 
 
 /////////////////
