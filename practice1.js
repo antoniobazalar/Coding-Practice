@@ -35,10 +35,16 @@ numeroTelefono; // null
 2 * 2 = 4;
 3 / 3 = 1;
 2 ** 3 = 8; // potenciacion
-21 % 5 = 1; // resto
+21 % 5 = 1; // resto, se usa el modulo %
 
-
-
+// Precedencia de Operadores y Asociatividad
+// Precedencia de Operadores, Orden en que se van a llamar las funciones de los operadores.
+console.log (3 + 4 * 5) // 23
+console.log (3 * 5 + 4 ** 2) // 31
+// Asociatividad de Operadores, Orden en que se ejecutan los operadores cuando tienen la misma precedencia.
+var a = 1, b = 2, c = 3;
+a = b = c;
+console.log(a, b, c); // 3
 
 
 
@@ -65,7 +71,6 @@ function devolverString2(a, b) {
     return diferencia;
 }
 devolverString2(6, 2);
-console.log(diferencia);
 
 //
 
